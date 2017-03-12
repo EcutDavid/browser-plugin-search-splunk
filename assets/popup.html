@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Search splunk</title>
+    <style>
+    </style>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <p>Search for:</p>
+    <input tyep='text' id='searchText'></input>
+    <div class='search-type-container'>
+      <p>Search type:</p>
+      <div class='radio-container'>
+            <div>
+              <input id='radioQuestion' type="radio" value="question" name="questiontype" checked>
+              <p class='type-description'>Questions</p>
+        </div>
+        <div>
+              <input id='radioApp' type="radio" value="app" name="questiontype">
+              <p class='type-description'>Apps</p>
+        </div>
+        <div>
+              <input id='radioTopic' type="radio" value="topic" name="questiontype">
+              <p class='type-description'>Tags</p>
+        </div>
+      </div>
+    </div>
+    <button id='submit'>Search</button>
+  </body>
+</html>

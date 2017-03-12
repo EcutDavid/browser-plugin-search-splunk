@@ -1,0 +1,30 @@
+body {
+  font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+  font-size: 100%;
+  margin-left: 20px;
+  width: 275px;
+}
+
+p {
+  margin: 0 10px 0 0;
+  display: inline-block;
+}
+
+.search-type-container {
+  margin-top: 5px;
+  display: flex;
+}
+
+#searchText {
+  width: 150px;
+}
+
+.radio-container {
+  display: flex;
+  flex-direction: column
+}
+
+#submit {
+  margin: 10px 99px 2px 99px;
+  font-size: 13px;
+}
