@@ -3,7 +3,7 @@
   "name": "Search splunk",
   "author": "David Guan(davidguandev@gmail.com)",
   "description": "This extension help you search questions and apps in splunk answers and splunk base.",
-  "version": "0.1",
+  "version": "0.2",
   "icons": {
     "16": "assets/icon16.png",
     "48": "assets/icon48.png",

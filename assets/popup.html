@@ -8,25 +8,20 @@
     <link rel="stylesheet" href="popup.css">
   </head>
   <body>
-    <p>Search for:</p>
-    <input tyep='text' id='searchText'></input>
-    <div class='search-type-container'>
-      <p>Search type:</p>
-      <div class='radio-container'>
-            <div>
-              <input id='radioQuestion' type="radio" value="question" name="questiontype" checked>
-              <p class='type-description'>Questions</p>
-        </div>
-        <div>
-              <input id='radioApp' type="radio" value="app" name="questiontype">
-              <p class='type-description'>Apps</p>
-        </div>
-        <div>
-              <input id='radioTopic' type="radio" value="topic" name="questiontype">
-              <p class='type-description'>Tags</p>
-        </div>
-      </div>
+    <header>
+      Search questions, apps, docs
+    </header>
+    <div class="main-container">
+      <input tyep='text' id='searchText' placeholder="enter search here..."></input>
+      <select name="select" id='selector'>
+        <option value="question" selected>Questions</option>
+        <option value="app">Apps</option>
+        <option value="topic">Tags</option>
+        <option value="doc">Docs</option>
+      </select>
+      <a href="#" class="search" id='submit'>
+        <span class="icon-search"></span>
+      </a>
     </div>
-    <button id='submit'>Search</button>
   </body>
 </html>
